@@ -32,6 +32,6 @@ int main(void) {
       printf("Estimate with even %d iterations is %f which is not accurate enough.\n", i, pi);
       abort();
     }
-  }
+  } 
 }
 
