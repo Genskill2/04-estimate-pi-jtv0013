@@ -4,6 +4,22 @@
 #include <math.h>
 
 float mc_pi(int);
+float mc_pi(int n){
+    int c=0,s=0;
+    float x,y;
+for(int i=1;i<=n;i++){
+    x=frandom();
+    y=frandom();
+    if (((x*x)+ (y*y))<=1)
+    {
+    c++;
+    }
+    else {s++;}
+} s=s+c;
+ float pi = 4*(float)c/s;
+return pi;
+}
+
 
 float frandom() {
   long int q = random();
