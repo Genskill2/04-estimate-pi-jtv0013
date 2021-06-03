@@ -17,7 +17,7 @@ float mc_pi(int n){
 for(int i=1;i<=n;i++){
     x=frandom();
     y=frandom();
-    if (((x*x)+ (y*y))<=1)
+     if ((sqrt((x*x)+ (y*y)))<=1)
     {
     c++;
     }
